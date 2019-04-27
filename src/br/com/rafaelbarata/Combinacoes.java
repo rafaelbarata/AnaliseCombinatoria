@@ -23,7 +23,6 @@ public class Combinacoes {
 				for (int i = 0; i < quantidade; i++) {
 					System.out.print(resultado[i] + (i < quantidade - 1 ? ", " : "\n"));
 				}
-				// System.out.print("\n");
 			}
 		} else
 			for (int x = inicio; x <= fim; x++) {
@@ -40,30 +39,4 @@ public class Combinacoes {
 		System.out.println("Total de combinacoes: " + comb.count);
 
 	}
-
-	// private void busca(int inicio, int fim, int profundidade) {
-	//
-	// if ((profundidade + 1) >= quantidade)
-	// for (int x = inicio; x <= fim; x++) {
-	// resultado[profundidade] = numeros[x];
-	// // faz alguma coisa com um dos resultados possiveis
-	// count++;
-	// System.out.println(resultado[0] + ", " + resultado[1] + ", "
-	// + resultado[2] + "\n");
-	// }
-	// else
-	// for (int x = inicio; x <= fim; x++) {
-	// resultado[profundidade] = numeros[x];
-	// busca(x + 1, fim + 1, profundidade + 1);
-	// }
-	// }
-	//
-	// public static void main(String args[]) {
-	//
-	// Combinacoes comb = new Combinacoes();
-	// comb.busca(0, (10 - 3), 0);
-	// System.out.println("Total de combinacoes: " + comb.count);
-	//
-	// }
-
 }
