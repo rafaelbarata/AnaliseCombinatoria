@@ -15,7 +15,6 @@ public class Combinacoes {
 	private void busca(int inicio, int fim, int profundidade) {
 
 		if ((profundidade + 1) >= quantidade) {
-			String texto = "";
 			for (int x = inicio; x <= fim; x++) {
 				resultado[profundidade] = numeros[x];
 				// faz alguma coisa com um dos resultados possiveis
