@@ -17,7 +17,6 @@ public class Arranjo {
 	private void Gira_Esquerda(LinkedList<Integer> v, int go, int n) {
 		int tmp = (Integer) v.get(go);
 		for (int i = go; i < n; i++) {
-			// v[i] = v[i + 1];
 			v.remove(i);
 			v.add(i, v.get(i));
 		}
@@ -54,11 +53,11 @@ public class Arranjo {
 	public static void main(String args[]) {
 		int i;
 		int n;
-		n = 4;
-		System.out.println("Testando git 2");
+		n = 3;
+		System.out.println("Testando git 3");
 		LinkedList<Integer> r = new LinkedList<Integer>();
 		Arranjo arranjo = new Arranjo();
-		for (i = 0; i < n; i++)
+		for (i = 1; i < n + 1; i++)
 			r.add(new Integer(i));
 		arranjo.Permuta((LinkedList<Integer>) r, 0, n);
 	}
