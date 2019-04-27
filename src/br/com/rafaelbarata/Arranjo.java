@@ -55,7 +55,7 @@ public class Arranjo {
 		int i;
 		int n;
 		n = 4;
-		System.out.println("Testando git");
+		System.out.println("Testando git 2");
 		LinkedList<Integer> r = new LinkedList<Integer>();
 		Arranjo arranjo = new Arranjo();
 		for (i = 0; i < n; i++)
